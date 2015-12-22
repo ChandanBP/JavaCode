@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 
-public class Sample {
+public class FancyNumbers {
 
 	
 	public static void main(String[] args) {
