@@ -4,7 +4,7 @@ public class BSTFromSortedArray {
    int A[] = {1,2,3,4,5,6,7,8,9,10};
 	
    
-   public Node constructBST(int A[],int low,int high){ 
+   public Node constructBST(int A[],int low,int high){
 	  
 	   int mid;
 

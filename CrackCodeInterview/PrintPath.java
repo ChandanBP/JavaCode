@@ -1,4 +1,4 @@
-// This algorithm prints all paths in a binary tree whose sum is pathSumVal. Path need not be from root to leaf
+
 public class PrintPath {
 
 	int pathSumVal = 23;

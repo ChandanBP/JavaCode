@@ -4,6 +4,10 @@ public class Node {
     Node left;
     Node right;
     
+    public Node(){
+    	
+    }
+    
     public Node(int k){
     	key = k;
     }

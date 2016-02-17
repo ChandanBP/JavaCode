@@ -19,7 +19,7 @@ public class CreateListFromTree {
 		
 		queue.add(root);
 		LinkedList<Node>list;
-		list = new LinkedList<Node>(); 
+		list = new LinkedList<Node>();
 		list.add(root);
 		
 		arrayList.add(list);

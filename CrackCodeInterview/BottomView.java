@@ -26,7 +26,7 @@ public class BottomView {
         	
         	children = new LinkedList<Node>();
 
-        	LinkedList<Node>l = new LinkedList<>();
+        	LinkedList<Node>l;
         	boolean first = true;
         	while(!queue.isEmpty()){
         		
@@ -44,6 +44,7 @@ public class BottomView {
         		else{
         			
         			l = map.get(hd);
+        			//l = new LinkedList<Node>();
         			if(first){
         				first =false;
         				l=null;
