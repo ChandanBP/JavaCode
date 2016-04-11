@@ -8,7 +8,7 @@ public class MultipleOf3And5 {
 
 	public static void main(String[] args) {
 		
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
 		try{
 		
 			long numTestCases = Integer.parseInt(br.readLine());
