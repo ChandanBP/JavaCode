@@ -13,7 +13,7 @@ public class SuperNetWork {
 	}
 	
 	public SuperNetWork(){
-		trie=new Trie();
+		trie=new Trie(); 
 	}
 	
 	public void insertIp(String ip){
