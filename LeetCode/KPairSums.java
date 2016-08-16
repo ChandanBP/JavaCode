@@ -10,7 +10,7 @@ public class KPairSums {
             this.v=v;
         }
         public int compareTo(Pair p){
-            return (this.u+this.v)-(p.u+p.v);
+            return (this.u+this.v)-(p.u+p.v); 
         }
     }
     
