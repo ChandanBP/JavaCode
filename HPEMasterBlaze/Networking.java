@@ -12,7 +12,7 @@ public class Networking {
 	Vertex[] vertices;
 	
 	public Networking(int N){
-		this.N=N;
+		this.N=N; 
 		min=Integer.MAX_VALUE;
 		visited=new boolean[N];
 		vertices=new Vertex[N];
