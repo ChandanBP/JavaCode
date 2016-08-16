@@ -28,7 +28,7 @@ public class ColoredTree {
    public void inGraph(int u,int v){
 		
 		if(vertices[u]==null){
-			vertices[u]=new Vertex();
+			vertices[u]=new Vertex(); 
 			vertices[u].children=new LinkedList<>();
 		}
 		if(vertices[v]==null){
