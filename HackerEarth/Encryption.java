@@ -10,7 +10,7 @@ public class Encryption {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String line = br.readLine();
         
-        LinkedHashMap<Character,Integer>map=new LinkedHashMap<>();
+        LinkedHashMap<Character,Integer>map=new LinkedHashMap<>(); 
         int count;
         for(int i=0;i<line.length();i++){
         	if(map.containsKey(line.charAt(i))){
