@@ -9,7 +9,7 @@ public class Candy {
         
         for(int i=1;i<score.length;i++){
         	if(score[i]>score[i-1]){
-        		chocs[i]=chocs[i-1]+1;
+        		chocs[i]=chocs[i-1]+1; 
         	}
         	else if(chocs[i-1]==1){
         		chocs[i]=1;
