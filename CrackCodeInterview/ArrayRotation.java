@@ -33,7 +33,7 @@ public class ArrayRotation {
 	            arr[i-d]=swap;
 	            print(arr);
 	            i=i-d;
-	            swap = temp;
+	            swap = temp; 
 	            
 	        }
 	        
