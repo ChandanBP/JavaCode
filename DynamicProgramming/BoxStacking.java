@@ -7,7 +7,7 @@ public class BoxStacking {
 	class Box implements Comparable<Box>{
 		int w;
 		int d;
-		int h;
+		int h;    
 		
 		public Box(int h,int w,int d){
 			this.w = w;
